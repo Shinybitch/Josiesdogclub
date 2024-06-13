@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Boarding & Daycare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Your Facility Name]</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Book a Stay</a></li>
+                <li><a href="checkin.html">Check-in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>We provide a safe and fun environment for your dog while you're away. Whether it's for a day or a week, we ensure your dog is well taken care of.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Your Facility Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
