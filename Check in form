@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Check-in</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Book a Stay</a></li>
+                <li><a href="checkin.html">Check-in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="checkin-form">
+            <label for="booking-id">Booking ID:</label>
+            <input type="text" id="booking-id" name="booking-id" required>
+
+            <label for="dog-name">Dog Name:</label>
+            <input type="text" id="dog-name" name="dog-name" required>
+
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="special-requests"></textarea>
+
+            <input type="submit" value="Check In">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Your Facility Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
